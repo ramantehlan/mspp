@@ -3,10 +3,7 @@
 	top:0%;
 	min-width:1000px;
 	width:100%;
-	background-color:green;
 	height:90px;
-	background-color:#ffffff;
-	border-bottom:1px solid #ffffff;
 }
 
 .logo img{height:72px;
@@ -58,7 +55,7 @@
 }
 
 .welcome_heading{text-align:center;
-				 margin-top:30px;
+				 margin-top:50px;
 				 font-size:32px;
 				 font-weight:bold;
 				 color:#000;
@@ -66,19 +63,16 @@
 
 
 .welcome_passage{text-align:center;
-					margin-top:40px;
 					font-size:18px;
 					font-style:italic;
 					color: #828257;
 					width:640px;
 					margin:0px auto;
-					margin-top:40px;
+					margin-top:50px;
 }
 
 .features_section{height:140px;
-	      margin-top:120px;
-	     background-color:#43d;
-	     background-color: #7371FC;
+	      margin-top:100px;
 	     color:#fff;
 	     padding-top:10px;
 
@@ -87,6 +81,10 @@
 .features_section_center{width:1000px;
 						 height:130px;
 						 margin:0px auto;
+						 border-radius:5px;
+
+	     background-color:#43d;
+	     background-color: #7371FC;
 }
 
 
@@ -109,8 +107,9 @@
 }
 
 .feature_name{text-align:center;
-			  font-size:16px;
+			  font-size:14px;
 			  margin-top:10px;
+			  font-family:Quicksand; 
 }
 
 
