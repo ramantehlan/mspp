@@ -2,13 +2,24 @@
 	position:fixed;
 	top:0%;
 	width:100%;
-	height:100px;
-	background-color:white;
+	height:90px;
+	background-color:#F5EFFF;
 }
 
-.logo img{height:80px;
+.logo img{height:72px;
 }
 
-.logo{margin-top:10px;
+.logo{margin-top:8px;
 	  margin-left:30px;
+	  float:left;
+	  background:green;
+}
+
+.company_name{
+			  float:left;
+			  line-height:90px;
+			  margin-left:15px;
+			  font-size:23px;
+			  font-family:rock;
+			  color:#56563A;
 }
