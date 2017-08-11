@@ -27,7 +27,7 @@
 .menu{
 	  width:300px;
 	  float:right;
-	  margin-right:80px;
+	  margin-right:60px;
 	  height:40px;
 	  line-height:40px;
 	  margin-top:25px;
@@ -41,10 +41,16 @@
 .menu li{float:left;
 		 padding-left:15px;
 		 padding-right:15px;
-		 
-		 background-color:lightgray;
 		 text-align:center;
 		 cursor:pointer;
 		 margin-left:15px;
 		 font-family:roboto_m;
+		 border-bottom:3px solid transparent;
+		 border-radius:0px;
+		 color:#828257;
+}
+
+.menu li:hover{
+	border-bottom-color:#000;
+	color:#000;
 }
