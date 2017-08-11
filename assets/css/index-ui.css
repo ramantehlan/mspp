@@ -66,7 +66,7 @@
 
 
 .welcome_passage{text-align:center;
-					margin-top:20px;
+					margin-top:40px;
 					font-size:18px;
 					font-style:italic;
 					color: #828257;
@@ -74,4 +74,43 @@
 					margin:0px auto;
 					margin-top:40px;
 }
+
+.features_section{height:140px;
+	      margin-top:120px;
+	     background-color:#43d;
+	     background-color: #7371FC;
+	     color:#fff;
+	     padding-top:10px;
+
+}
+
+.features_section_center{width:1000px;
+						 height:130px;
+						 margin:0px auto;
+}
+
+
+.feature_box{width:120px;
+			 height:130px;
+			 border-radius:3px;
+			 float:left;
+			 margin-left:56px;
+}
+
+.feature_box:first-child{margin-left:0px;}
+
+.feature_img{
+	width:50px;
+	margin:0px auto;
+}
+
+.feature_img img{width:50px;
+				 margin-top:20px;
+}
+
+.feature_name{text-align:center;
+			  font-size:16px;
+			  margin-top:10px;
+}
+
 
