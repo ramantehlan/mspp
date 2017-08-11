@@ -15,6 +15,7 @@ body{
        margin:0px auto;
        max-width:100%;
        min-width:1000px;
+       padding-top: 120px;
 }
 
 
@@ -32,7 +33,7 @@ body{
 }
 
 @font-face{
-  font-family:robot_r;
+  font-family:roboto_r;
   src:url("../fonts/Roboto-Regular.ttf");
 }
 

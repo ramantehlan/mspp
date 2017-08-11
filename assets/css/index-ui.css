@@ -54,3 +54,16 @@
 	border-bottom-color:#000;
 	color:#000;
 }
+
+.welcome_heading{text-align:center;
+				 margin-top:30px;
+				 font-size:32px;
+				 font-weight:bold;
+}
+
+
+.welcome_subheading{text-align:center;
+					margin-top:20px;
+					font-size:20px;
+
+}
