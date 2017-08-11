@@ -65,15 +65,13 @@
 }
 
 
-.welcome_subheading{text-align:center;
+.welcome_passage{text-align:center;
 					margin-top:20px;
 					font-size:18px;
 					font-style:italic;
 					color: #828257;
+					width:640px;
+					margin:0px auto;
+					margin-top:40px;
 }
-
-.welcome_passage{width:600px;
-				 margin:0px auto;
-				 margin-top:60px;
-}	
 
