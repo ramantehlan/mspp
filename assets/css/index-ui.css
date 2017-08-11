@@ -1,7 +1,9 @@
 .top{
 	position:fixed;
 	top:0%;
+	min-width:1000px;
 	width:100%;
+	background-color:green;
 	height:90px;
 	background-color:#ffffff;
 	border-bottom:1px solid #ffffff;
@@ -69,3 +71,9 @@
 					font-style:italic;
 					color: #828257;
 }
+
+.welcome_passage{width:600px;
+				 margin:0px auto;
+				 margin-top:60px;
+}	
+
