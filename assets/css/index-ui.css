@@ -3,23 +3,48 @@
 	top:0%;
 	width:100%;
 	height:90px;
-	background-color:#F5EFFF;
+	background-color:#ffffff;
+	border-bottom:1px solid #ffffff;
 }
 
 .logo img{height:72px;
 }
 
-.logo{margin-top:8px;
+.logo{margin-top:10px;
 	  margin-left:30px;
 	  float:left;
-	  background:green;
 }
 
 .company_name{
 			  float:left;
 			  line-height:90px;
 			  margin-left:15px;
-			  font-size:23px;
+			  font-size:22px;
 			  font-family:rock;
-			  color:#56563A;
+			  color:#828257;
+}
+
+.menu{
+	  width:300px;
+	  float:right;
+	  margin-right:80px;
+	  height:40px;
+	  line-height:40px;
+	  margin-top:25px;
+}
+
+.menu ul{list-style:none;
+		 padding:0px;
+		 margin:0px;
+}
+
+.menu li{float:left;
+		 padding-left:15px;
+		 padding-right:15px;
+		 
+		 background-color:lightgray;
+		 text-align:center;
+		 cursor:pointer;
+		 margin-left:15px;
+		 font-family:roboto_m;
 }
