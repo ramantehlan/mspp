@@ -47,23 +47,25 @@
 		 font-family:roboto_m;
 		 border-bottom:3px solid transparent;
 		 border-radius:0px;
-		 color:#828257;
+		 color:#7371FC;
 }
 
 .menu li:hover{
-	border-bottom-color:#000;
-	color:#000;
+	border-bottom-color:#38023B;
+	color:#38023B;
 }
 
 .welcome_heading{text-align:center;
 				 margin-top:30px;
 				 font-size:32px;
 				 font-weight:bold;
+				 color:#000;
 }
 
 
 .welcome_subheading{text-align:center;
 					margin-top:20px;
-					font-size:20px;
-
+					font-size:18px;
+					font-style:italic;
+					color: #828257;
 }
