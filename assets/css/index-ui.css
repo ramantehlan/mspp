@@ -46,7 +46,7 @@
 		 font-family:roboto_m;
 		 border-bottom:3px solid transparent;
 		 border-radius:0px;
-		 color:#7371FC;
+		 color:#828257;
 }
 
 
@@ -67,6 +67,15 @@
 				 letter-spacing:1.4px;
 }
 
+.welcome_subheading{width:800px;
+					 height:30px;
+					 line-height:30px;
+					 font-size:24px;
+					 margin:0px auto;
+					 margin-top:20px;
+					 text-align: center;
+					 color:#7371fc;
+}
 
 .welcome_passage{text-align:center;
 					font-size:18px;
@@ -74,7 +83,7 @@
 					color: #828257;
 					width:640px;
 					margin:0px auto;
-					margin-top:50px;
+					margin-top:40px;
 					letter-spacing:0.2px;
 }
 
@@ -132,6 +141,8 @@
 				 margin-top:30px;
 				 letter-spacing:1.4px;
 }
+
+
 
 .section_passage{width:700px;
 				 margin:0px auto;
