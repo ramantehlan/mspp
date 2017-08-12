@@ -24,7 +24,7 @@
 }
 
 .menu{
-	  width:300px;
+	  width:400px;
 	  float:right;
 	  margin-right:60px;
 	  height:40px;
@@ -49,10 +49,15 @@
 		 color:#7371FC;
 }
 
+
 .menu li:hover{
 	border-bottom-color:#38023B;
 	color:#38023B;
 }
+
+.menu li.selected{
+	border-bottom-color:#38023B;
+	color:#38023B;}
 
 .welcome_heading{text-align:center;
 				 margin-top:50px;
