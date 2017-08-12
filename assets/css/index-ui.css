@@ -64,6 +64,7 @@
 				 font-size:32px;
 				 font-weight:bold;
 				 color:#000;
+				 letter-spacing:1.4px;
 }
 
 
@@ -74,6 +75,7 @@
 					width:640px;
 					margin:0px auto;
 					margin-top:50px;
+					letter-spacing:0.2px;
 }
 
 .features_section{height:140px;
@@ -118,5 +120,22 @@
 }
 
 
-.about_section{display:none;}
+.hide{display:none;}
 
+
+.section_heading{width:800px;
+				 height:30px;
+				 font-size:28px;
+				 color: #000;
+				 font-weight:bold;
+				 margin:0px auto;
+				 margin-top:30px;
+				 letter-spacing:1.4px;
+}
+
+.section_passage{width:700px;
+				 margin:0px auto;
+				 margin-top:25px;
+				 font-size:16px;
+				 letter-spacing:1px;
+}
