@@ -17,12 +17,12 @@ $(document).ready(function(){
 			$(".about_section").show();
 		});
 
-		$("#products").click(function(){
+		$("#clients").click(function(){
 			$(".selected").removeClass("selected");
 			$(this).addClass("selected");
 
 			$(".hide").hide();
-			$(".product_section").show();
+			$(".clients_section").show();
 		});
 
 		$("#contact").click(function(){
