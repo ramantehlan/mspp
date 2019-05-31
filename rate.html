@@ -38,7 +38,7 @@
     </div>
     <div class="box-result">
       Surface Area: <b>{{ 2 * (width * length) + 2 * (width * height) + 2 * (length * height)}} mm<sup>2</sup></b><br><br>
-      Rate: <b>₹{{ [ (2 * (width * length)) + (2 * (width * height)) + (2 * (length * height)) ] * (ply/100) }} per box</b>
+      Rate: <b>₹{{ Number(( [ (2 * (width * length)) + (2 * (width * height)) + (2 * (length * height)) ] * (ply/100)).toFixed(2)) }} per box</b>
     </div>
 
   </div>
