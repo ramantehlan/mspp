@@ -1,0 +1,104 @@
+html{
+       margin:0px;
+       font-size:14px;
+       background-attachment:fixed;
+       font-family:roboto_r;
+       background-size:100%;
+       color:#000000;
+       background-attachment:fixed;
+       background-image:linear-gradient(-120deg, #524f99, #403e77, #272649 );
+}
+
+body{
+  margin:0px;
+}
+
+@font-face{
+  font-family:roboto_r;
+  src:url("../fonts/Roboto-Regular.ttf");
+}
+
+
+.box{
+
+  background:white;
+  border-radius:3px 3px 4px 4px;
+  color:rgb(0,0,0);
+  max-width:350px;
+  min-height:200px;
+  margin:0px auto;
+  margin-top:60px;
+  box-shadow: 2px 2px 5px rgba(60,60,60,0.6);
+  display:flex;
+  flex-direction:column;
+}
+
+.box-title{
+  text-align:center;
+  font-weight:100;
+  font-size:18px;
+  margin-bottom:25px;
+
+}
+
+.box-body{
+  padding:20px;
+}
+
+.box-body > input,select {
+  width:95%;
+  border-radius:2.6px;
+  padding-left:2.5%;
+  padding-right:2.5%;
+  background: linear-gradient(180deg, rgba(253,253,253,0.9), rgba(240,240,240,0.9) );
+  border:1px solid rgba(0,0,0,0.3);
+  height:30px;
+  line-height:30px;
+  color:#000;
+}
+
+.box-body > select{
+  width:100%;
+}
+
+.box-body > input:focus, input:hover,select:hover{
+  background:#fff;
+}
+
+.box-body > button{
+  border-radius:2.6px;
+  font-size:12px;
+  font-weight:bold;
+  margin-top:25px;
+  height:40px;
+  line-height:40px;
+  cursor:pointer;
+  border:0px;
+  outline:none;
+  background-image: linear-gradient(180deg, #348c31, #246021);
+}
+
+.box-body > button:hover{
+  outline:none;
+  background-image: linear-gradient(180deg, #1c4c1a, #163d14);
+}
+
+.box-body > .label {
+  font-size:11px;
+  width:100%;
+  margin-top:15px;
+  margin-bottom:3px;
+    color:rgba(0,0,0,0.4);
+}
+
+.box-result{
+  font-size: 12px;
+  padding:20px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:0px 0px 3px 3px;
+  margin-top:25px;
+  background:#1a1423;
+  background-color: #348c31;
+  color:#fff;
+}
