@@ -26,12 +26,12 @@
     <div class="box-body">
       <h2 class="box-title">Rate Calculator For Chuk-De</h2>
 
-      <div class="label"> Length</div>
-      <input type="length" name="length" placeholder="Length (mm)" v-model="length">
-      <div class="label"> Width</div>
-      <input type="width" name="width" placeholder="Width (mm)" v-model="width">
-      <div class="label"> Height</div>
-      <input type="height" name="height" placeholder="Height (mm)" v-model="height">
+      <div class="label"> Length (mm)</div>
+      <input type="length" name="length"  v-model="length">
+      <div class="label"> Width (mm)</div>
+      <input type="width" name="width" v-model="width">
+      <div class="label"> Height (mm)</div>
+      <input type="height" name="height" v-model="height">
       <div class="label">Ply</div>
       <select type="ply" name="ply" v-model="ply">
         <option value="3">3</option>
@@ -39,8 +39,8 @@
       </select>
     </div>
     <div class="box-result">
-      Surface Area: <b>{{ 2 * (width * length) + 2 * (width * height) + 2 * (length * height)}} mm<sup>2</sup></b><br><br>
-      Rate: <b>₹{{ Number(( [ (2 * (width * length)) + (2 * (width * height)) + (2 * (length * height)) ] * (ply/100)).toFixed(2)) }} per box</b>
+      Surface Area: <b>{{ 2 * (width * length) + 2 * (width * height) + 2 * (length * height)}} mm<sup>2</sup> | {{ Number([2 * (width * length) + 2 * (width * height) + 2 * (length * height) ] / 645.16).toFixed(2)}} inch<sup>2</sup></b>  <br><br>
+      Rate: <b>₹{{ Number(( ([ (2 * (width * length)) + (2 * (width * height)) + (2 * (length * height)) ] / 645.16) * (ply/100)).toFixed(2)) }} per box</b>
     </div>
 
   </div>
