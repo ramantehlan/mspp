@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Beta Rate Calculator</title>
+
+  <link rel="stylesheet" href="assets/css/rate-ui.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  <META NAME='author' content='Ashok Kumar'>
+  <META NAME='title' content='M.S Printing & Packaging Co (Box Manufacturer)'>
+  <META NAME='keywords' content='Box Manufacturer sonipat Haryana delhi corrugated Carton best packaging'>
+  <META NAME='description' content="We create strong and beautiful boxes for your products">
+  <META NAME='language' content='English'>
+  <META charset='utf-8'>
+  <META NAME="ROBOTS" CONTENT="NOINDEX , NOFOLLOW">
+
+</head>
+
+<body>
+
+  <div class="box" id="box">
+    <div class="box-body">
+      <h2 class="box-title">Rate Calculator For Chuk-De</h2>
+
+      <div class="label"> Length</div>
+      <input type="length" name="length" placeholder="Length (mm)" v-model="length">
+      <div class="label"> Width</div>
+      <input type="width" name="width" placeholder="Width (mm)" v-model="width">
+      <div class="label"> Height</div>
+      <input type="height" name="height" placeholder="Height (mm)" v-model="height">
+      <div class="label">Ply</div>
+      <select type="ply" name="ply" v-model="ply">
+        <option value="3">3</option>
+        <option value="5">5</option>
+      </select>
+    </div>
+    <div class="box-result">
+      Surface Area: <b>{{ 2 * (width * length) + 2 * (width * height) + 2 * (length * height)}} mm<sup>2</sup></b><br><br>
+      Rate: <b>₹{{ [ (2 * (width * length)) + (2 * (width * height)) + (2 * (length * height)) ] * (ply/100) }} per box</b>
+    </div>
+
+  </div>
+
+
+</body>
+<script src="assets/javascript/rate.js"></script>
+
+</html>
