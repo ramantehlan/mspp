@@ -4,7 +4,6 @@ var box = new Vue({
     length: '',
     width: '',
     height: '',
-    ply: '',
     sa: ''
   }
 })
